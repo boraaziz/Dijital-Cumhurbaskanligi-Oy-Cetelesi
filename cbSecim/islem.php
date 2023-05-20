@@ -157,9 +157,9 @@ CUMHURBAŞKANLIĞI OY SAYIM ÇETELESİ</h2>
     <div class="gecersizOylar">
       <h2>Geçersiz Oylar</h2>
       <h1 id="gecersiz">0</h1>
-      <button class="arti" onclick="gecersizArttir()">+</button>
+      <button class="artiGecersiz" onclick="gecersizArttir()">+</button>
       <p>
-        <button class="eksi" onclick="gecersizCikart()">-</button>
+        <button class="eksiGecersiz" onclick="gecersizCikart()">-</button>
       </div>
       <div class="yanCizgi">
       </div>

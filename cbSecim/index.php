@@ -13,7 +13,7 @@
 <form action="islem.php" method="POST">
 	<strong class="baslik">Lütfen sandık numarası giriniz.</strong>
 	<div class="renk">
-		<input type="tel" maxlength="4" id="sandikNo" name="sandikNo">
+		<input type="tel" minlength="4" maxlength="4" id="sandikNo" name="sandikNo" required>
 		<button class="eksi" type="submit">Giriş Yap</button>
 	</div>
 </form>
